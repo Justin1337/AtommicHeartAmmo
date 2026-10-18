@@ -1,0 +1,10 @@
+AtomicHeartAmmo V6
+Build: Windows x64 GUI, C++17, Zig 0.17.0
+Flags: -Wall -Wextra -Werror -O2 -static -municode -Wl,--subsystem,windows
+Tests: GCC C++17, -Wall -Wextra -Werror -pedantic, ASan/UBSan
+LeakSanitizer: disabled (restricted /proc runtime)
+Runtime verification: synthetic memory; no live Windows/game execution
+New regression: full generic Energy vs empty weapon RageResource; only the selected weapon pool may change
+Imported remote memory API: ReadProcessMemory / WriteProcessMemory
+No imports: CreateRemoteThread / VirtualAllocEx / VirtualProtectEx
+Source references: NOTICE / README_DE.md / LOG_REVIEW_V6.md
