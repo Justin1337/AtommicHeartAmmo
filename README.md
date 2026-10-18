@@ -42,8 +42,6 @@ Fünf Testsuiten prüfen unter anderem Pattern-Suche, Waffenauflösung, Ressourc
 
 Munition und Energie sind getrennte Module mit gemeinsamer `Feature`-Schnittstelle. Neue Funktionen werden zentral in `game_features.h` registriert.
 
-Eine ausführliche Anleitung steht in [ERWEITERN.md](ERWEITERN.md).
-
 ## Kompatibilität
 
 Das Reflection-Profil basiert auf UE4.27. Pattern-Suche reduziert die Abhängigkeit von festen Adressen, garantiert jedoch keine Kompatibilität mit jedem zukünftigen Spielupdate.
